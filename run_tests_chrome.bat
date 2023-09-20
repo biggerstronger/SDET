@@ -1,0 +1,1 @@
+cmd /k "chcp 1251 & cd /d venv\Scripts & activate & cd /d ..\..\ & python -m pytest --remote=http://localhost:4444 --browser_name=chrome"
